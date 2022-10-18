@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:background="#77ECEC"
+    >
+
+    <TextView
+        android:id="@+id/tvMultiplicador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 x 01 = "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#4ABCBC"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prueba 2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
